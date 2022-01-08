@@ -13,7 +13,7 @@ const About = () => (
             <Img src={profile} />
             <p>
               I'm Murari Sabavath, a self-taught passionate web developer.
-              Currently woring at
+              Currently working at
               <LinkToIntern href="https://techatcore.com/" target="_blank">
                 techatcore
               </LinkToIntern>
