@@ -3,8 +3,7 @@ import { ThemeProvider } from "styled-components";
 import Header from "./components/Header/Header.component";
 import Home from "./pages/Home.component";
 import { MainWrapper } from "./styles/shared";
-
-import { GlobalStyles, darkTheme, lightTheme } from "./Themes/global.css";
+import { darkTheme, GlobalStyles, lightTheme } from "./themes/global.css";
 
 const App = () => {
   const [theme, setTheme] = useState("light");

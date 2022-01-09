@@ -6,9 +6,7 @@ export interface IThemeType {
 }
 
 export const GlobalStyles = createGlobalStyle<{ theme: IThemeType }>`
-  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
   body {
-    padding-top: 5px;
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     transition: background 0.2s ease-in, color 0.2s ease-in;

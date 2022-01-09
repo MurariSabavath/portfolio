@@ -1,10 +1,21 @@
 import styled from "styled-components/macro";
 
+export const FlexBox = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const HeaderSection = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+`;
+
 export const Button = styled.button`
   width: 50px;
   height: 30px;
   border-radius: 5px;
-  align-items: baseline;
+  align-items: center;
   cursor: pointer;
   outline: 0;
   border: 0;

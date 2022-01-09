@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
-import { Button, HeaderLink, Section } from "./styles";
+import { Button, FlexBox, HeaderLink, HeaderSection, Section } from "./styles";
 
 export interface IHeader {
   theme: string;
@@ -12,7 +12,6 @@ const Header = ({ theme, setTheme }: IHeader) => {
 
   const lname = "Sabavath";
   const themeContext = useContext(ThemeContext);
-  console.info(themeContext);
 
   const isDarkTheme = theme === "dark";
 
@@ -24,29 +23,25 @@ const Header = ({ theme, setTheme }: IHeader) => {
 
   return (
     <Section>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "baseline",
-        }}
-      >
+      <HeaderSection>
         <HeaderLink href="/">
           <span>{fname}</span>
           <span>{lname}</span>
         </HeaderLink>
-        <Button onClick={toggleTheme} theme={themeContext}>
-          {isDarkTheme ? (
-            <span aria-label="Light mode" role="img">
-              🌞
-            </span>
-          ) : (
-            <span aria-label="Dark mode" role="img">
-              🌜
-            </span>
-          )}
-        </Button>
-      </div>
+        <FlexBox>
+          <Button onClick={toggleTheme} theme={themeContext}>
+            {isDarkTheme ? (
+              <span aria-label="Light mode" role="img">
+                🌞
+              </span>
+            ) : (
+              <span aria-label="Dark mode" role="img">
+                🌜
+              </span>
+            )}
+          </Button>
+        </FlexBox>
+      </HeaderSection>
     </Section>
   );
 };
