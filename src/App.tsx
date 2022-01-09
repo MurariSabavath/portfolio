@@ -6,7 +6,7 @@ import { MainWrapper } from "./styles/shared";
 import { darkTheme, GlobalStyles, lightTheme } from "./themes/global.css";
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const isDarkTheme = theme === "dark";
 
   useEffect(() => {
