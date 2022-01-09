@@ -29,7 +29,6 @@ const Main = () => (
           <pre>5 &#125; </pre>
         </CodeBlock>
       </FlexBox>
-      <Square />
     </div>
   </>
 );

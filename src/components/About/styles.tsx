@@ -32,8 +32,8 @@ export const Img = styled.img`
   border-radius: 50%;
 `;
 
-export const LinkToIntern = styled.a`
+export const InlineLink = styled.a`
   text-decoration: none;
-  padding-inline: 5px;
+  padding-inline: 8px;
   color: ${({ theme }) => theme.accent};
 `;
