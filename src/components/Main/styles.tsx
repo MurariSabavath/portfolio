@@ -62,3 +62,83 @@ export const CodeBlock = styled.div`
     margin-top: 20px;
   }
 `;
+
+export const Square = styled.div`
+  width: 50px;
+  height: 30px;
+  border: 2px solid ${({ theme }) => theme.accent};
+  position: absolute;
+  top: 95%;
+  right: 30%;
+
+  &:hover {
+    animation: rotation 1s infinite;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`;
+
+export const Circle = styled.div`
+  border: 2px solid ${({ theme }) => theme.accent};
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  border-radius: 50%;
+  animation: skew-animation 5s infinite;
+
+  @keyframes skew-animation {
+    0% {
+      margin-top: 15px;
+    }
+    25% {
+      margin-top: -15px;
+    }
+    50% {
+      margin-top: 15px;
+    }
+    75% {
+      margin-top: -15px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+`;
+
+export const Typewriter = styled.h2`
+  color: #dedede;
+  font-size: 1.9em;
+  color: ${({ theme }) => theme.accent};
+  border-right: 1px solid #dedede;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 4s steps(15) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 9em;
+    }
+  }
+
+  @keyframes cursorblink {
+    from {
+      border-right: 1px solid #dedede;
+    }
+
+    to {
+      border-right: 1px solid #666;
+    }
+  }
+`;
