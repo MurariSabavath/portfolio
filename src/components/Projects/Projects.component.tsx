@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
               </FlexBox>
             </ProjectDetails>
-            <Img src={imgLink} alt="" />
+            <Img src={imgLink} alt={title} />
           </ImageCard>
         ))}
       </GridBox>

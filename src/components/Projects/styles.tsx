@@ -22,6 +22,7 @@ export const Img = styled.img`
   border-radius: 10px;
   width: 100%;
   max-height: 350px;
+  height: 100%;
   object-fit: cover;
 `;
 
