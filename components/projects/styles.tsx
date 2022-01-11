@@ -18,15 +18,8 @@ export const FlexBox = styled.div`
   padding-inline: 10px;
 `;
 
-export const Img = styled.img`
-  border-radius: 10px;
-  width: 100%;
-  max-height: 350px;
-  height: 100%;
-  object-fit: cover;
-`;
-
 export const ImageCard = styled.div`
+  height: 400px;
   transition: 0.4s linear;
   border-radius: 10px;
   cursor: pointer;
@@ -34,6 +27,10 @@ export const ImageCard = styled.div`
   box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
+
+  img {
+    border-radius: 10px;
+  }
 
   &:hover {
     transform: scale(1.05);

@@ -1,11 +1,13 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
-import Header from "./components/Header/Header.component";
-import Home from "./pages/Home.component";
-import { MainWrapper } from "./styles/shared";
-import { darkTheme, GlobalStyles, lightTheme } from "./themes/global.css";
+import { darkTheme, GlobalStyles, lightTheme } from "../themes/global.css";
 
-const App = () => {
+export interface IProps {
+  Component: React.ElementType;
+  pageProps: any;
+}
+
+const MyApp = ({ Component, pageProps }: IProps) => {
   const [theme, setTheme] = useState("dark");
   const isDarkTheme = theme === "dark";
 
@@ -20,18 +22,14 @@ const App = () => {
       setTheme("dark");
     }
   }, []);
-
   return (
-    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
-      <>
+    <>
+      <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
         <GlobalStyles />
-        <MainWrapper>
-          <Header theme={theme} setTheme={setTheme} />
-        </MainWrapper>
-        <Home />
-      </>
-    </ThemeProvider>
+        <Component {...pageProps} theme={theme} setTheme={setTheme} />
+      </ThemeProvider>
+    </>
   );
 };
 
-export default App;
+export default MyApp;

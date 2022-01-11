@@ -1,18 +1,11 @@
-import {
-  AboutSection,
-  Circle,
-  CodeBlock,
-  FlexBox,
-  Square,
-  Typewriter,
-} from "./styles";
+import { AboutSection, CodeBlock, FlexBox, Typewriter } from "./styles";
 
-const Main = () => (
+const MainContent = () => (
   <>
     <div style={{ position: "relative" }}>
       <FlexBox>
         <AboutSection>
-          <p>Hello, I'm</p>
+          <p>Hello, I&apos;m</p>
           <Typewriter>Murari Sabavath</Typewriter>
           <p>Passionate Web Developer</p>
         </AboutSection>
@@ -24,7 +17,9 @@ const Main = () => (
           <pre>
             2 &#09;&#09; <b>Murari()</b> &#123;
           </pre>
-          <pre>3 &#09;&#09;&#09;&#09; this.name = "Murari Sabavath";</pre>
+          <pre>
+            3 &#09;&#09;&#09;&#09; this.name = &quot;Murari Sabavath&quot;;
+          </pre>
           <pre>4 &#09;&#09; &#125; </pre>
           <pre>5 &#125; </pre>
         </CodeBlock>
@@ -33,4 +28,4 @@ const Main = () => (
   </>
 );
 
-export default Main;
+export default MainContent;

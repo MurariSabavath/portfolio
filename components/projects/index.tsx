@@ -6,15 +6,15 @@ import {
   GridBox,
   IconLinks,
   ImageCard,
-  Img,
   ProjectDetails,
 } from "./styles";
 import ContentHeader from "../ContentHeader.component";
+import Image from "next/image";
 
 const Projects = () => {
   return (
     <>
-      <ContentHeader>Some Things That I've Built</ContentHeader>
+      <ContentHeader>Some Things That I&apos;ve Built</ContentHeader>
       <GridBox>
         {projects.map(({ id, title, imgLink, github, link }) => (
           <ImageCard key={id}>
@@ -33,7 +33,12 @@ const Projects = () => {
                 </div>
               </FlexBox>
             </ProjectDetails>
-            <Img src={imgLink} alt={title} />
+            <Image
+              src={imgLink}
+              layout="fill"
+              objectFit="cover"
+              alt="Project"
+            />
           </ImageCard>
         ))}
       </GridBox>

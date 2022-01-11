@@ -1,7 +1,13 @@
-import profile from "../../assets/profile.jpg";
+import Image from "next/image";
 import { MainWrapper } from "../../styles/shared";
 import ContentHeader from "../ContentHeader.component";
-import { FlexBox, Img, InlineLink, Section, SectionWrapper } from "./styles";
+import {
+  FlexBox,
+  InlineLink,
+  Section,
+  SectionWrapper,
+  ImgContainer,
+} from "./styles";
 
 const About = () => (
   <>
@@ -10,11 +16,14 @@ const About = () => (
         <Section>
           <ContentHeader>About</ContentHeader>
           <FlexBox>
-            <Img src={profile} />
+            <ImgContainer>
+              <Image src="/profile.jpg" width={700} height={700} alt="Murari" />
+            </ImgContainer>
+
             <div>
               <p>
-                I'm Murari Sabavath, a self-taught passionate web developer.
-                Currently working at
+                I&apos;m Murari Sabavath, a self-taught passionate web
+                developer. Currently working at
                 <InlineLink href="https://techatcore.com/" target="_blank">
                   techatcore
                 </InlineLink>
@@ -23,7 +32,7 @@ const About = () => (
 
               <p>
                 I have been working on web technologies like React js, Node js,
-                Django for past couple of years. I'm currently learning web
+                Django for past couple of years. I&apos;m currently learning web
                 technologies like
                 <InlineLink href="https://nextjs.org/" target="_blank">
                   Next js

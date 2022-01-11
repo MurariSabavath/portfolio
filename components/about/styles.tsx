@@ -27,9 +27,19 @@ export const FlexBox = styled.div`
   }
 `;
 
-export const Img = styled.img`
-  max-width: 200px;
+export const ImgContainer = styled.div`
+  width: 900px;
   border-radius: 50%;
+  img {
+    border-radius: 50%;
+
+    @media (max-width: 768px) {
+      width: 300px;
+    }
+  }
+  @media (max-width: 768px) {
+    width: 400px;
+  }
 `;
 
 export const InlineLink = styled.a`
