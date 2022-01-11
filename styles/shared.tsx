@@ -1,8 +1,16 @@
 import styled from "styled-components";
 
-export const Header = styled.h2`
-  color: ${({ theme }) => theme.accent};
-  margin: 0;
+export const Header = styled.div`
+  display: inline-block;
+  margin-block: 20px;
+  h2 {
+    color: ${({ theme }) => theme.text};
+    margin: 0;
+  }
+  div:nth-child(1) {
+    height: 10px;
+    background: red;
+  }
 `;
 
 export const MainWrapper = styled.section`
@@ -13,4 +21,13 @@ export const MainWrapper = styled.section`
       margin-inline: 20px;
     }
   }
+`;
+
+export const Underline = styled.div<{ width: string }>`
+  padding-inline: 10px;
+  margin-top: 5px;
+  height: 4px;
+  border-radius: 100px;
+  background: ${({ theme }) => theme.accent};
+  width: ${(props) => props.width};
 `;
