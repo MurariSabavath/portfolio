@@ -8,6 +8,10 @@ export default function Document() {
           name="description"
           content="This is Murari Sabavath's portfolio"
         />
+        <meta
+          name="google-site-verification"
+          content="xZKbCvEivMixmFsp-wuQsZLgb4amaJxrx8njeif2nU0"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
