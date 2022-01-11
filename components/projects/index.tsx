@@ -6,6 +6,7 @@ import {
   GridBox,
   IconLinks,
   ImageCard,
+  ImageContainer,
   ProjectDetails,
 } from "./styles";
 import ContentHeader from "../ContentHeader.component";
@@ -33,12 +34,14 @@ const Projects = () => {
                 </div>
               </FlexBox>
             </ProjectDetails>
-            <Image
-              src={imgLink}
-              layout="fill"
-              objectFit="cover"
-              alt="Project"
-            />
+            <ImageContainer>
+              <Image
+                src={imgLink}
+                layout="fill"
+                objectFit="cover"
+                alt="Project"
+              />
+            </ImageContainer>
           </ImageCard>
         ))}
       </GridBox>

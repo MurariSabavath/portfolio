@@ -28,17 +28,13 @@ export const FlexBox = styled.div`
 `;
 
 export const ImgContainer = styled.div`
-  width: 900px;
+  width: 500px;
   border-radius: 50%;
   img {
     border-radius: 50%;
-
-    @media (max-width: 768px) {
-      width: 300px;
-    }
   }
   @media (max-width: 768px) {
-    width: 400px;
+    width: 250px;
   }
 `;
 

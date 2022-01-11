@@ -21,23 +21,23 @@ export const FlexBox = styled.div`
 export const ImageCard = styled.div`
   height: 400px;
   transition: 0.4s linear;
-  border-radius: 10px;
   cursor: pointer;
   position: relative;
   box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
 
-  img {
+  &:hover {
     border-radius: 10px;
   }
 
-  &:hover {
+  &:hover img {
+    border-radius: 10px;
     transform: scale(1.05);
   }
 
   &:hover div {
-    height: 40px;
+    height: auto;
     padding-block: 5px;
   }
 `;
@@ -46,11 +46,11 @@ export const ProjectDetails = styled.div`
   position: absolute;
   background: ${({ theme }) => theme.secondary};
   color: white;
+  border-radius: 8px;
   bottom: 0;
   width: 100%;
-  border-radius: 10px;
   z-index: 1;
-  height: 0px;
+  height: 0;
   overflow: hidden;
   transition: 0.2s linear;
 `;
@@ -58,11 +58,25 @@ export const ProjectDetails = styled.div`
 export const IconLinks = styled.a`
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: white;
   padding-inline: 5px;
   font-size: 1.3rem;
 
   &:hover {
-    color: ${({ theme }) => theme.text};
+    color: ${({ theme }) => theme.accent};
+  }
+`;
+
+export const ImageContainer = styled.div`
+  width: 100%;
+  span {
+    border-radius: 10px;
+  }
+  img {
+    transition: 0.4s;
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-width: 400px;
   }
 `;

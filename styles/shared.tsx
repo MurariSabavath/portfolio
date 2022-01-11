@@ -6,14 +6,11 @@ export const Header = styled.h2`
 `;
 
 export const MainWrapper = styled.section`
-  margin-inline: 20%;
+  margin-inline: 10%;
 
   & {
-    @media (max-width: 768) {
+    @media (max-width: 768px) {
       margin-inline: 20px;
-    }
-    @media (max-width: 900px) {
-      margin-inline: 10%;
     }
   }
 `;
