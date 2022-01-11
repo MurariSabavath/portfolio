@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 export const FlexBox = styled.div`
   display: flex;
@@ -28,7 +28,6 @@ export const HeaderLink = styled.a`
   font-weight: bold;
   font-size: 1.25rem;
   cursor: pointer;
-
   span {
     padding: 0.1rem;
     transition: 0.4s linear;
