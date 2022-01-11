@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Header = styled.div`
   display: inline-block;
   margin-block: 20px;
-  h2 {
+  h3 {
+    padding-block: 5px;
     color: ${({ theme }) => theme.text};
     margin: 0;
   }

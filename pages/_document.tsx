@@ -4,6 +4,58 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="title" content="Murari Sabavath Portfolio" />
+        <meta
+          name="description"
+          content="Murari Sabavath's portfolio built with NextJs and Styled components"
+        />
+        <meta name="author" content="Murari Sabavath" />
+        <meta
+          name="keywords"
+          content="murari, murari's portfolio, murari sabavath protfolio, murari sabavat's portfolio"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta itemProp="name" content="Murari Sabavatj" />
+        <meta
+          itemProp="description"
+          content="Murari Sabavath's portfolio built with NextJs and Styled components"
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Murari Sabavath" />
+        <meta
+          name="twitter:description"
+          content="Murari Sabavath's portfolio built with NextJs and Styled component"
+        />
+        <meta name="twitter:site" content="MurariSabavath_" />
+        <meta name="twitter:creator" content="MurariSabavath_" />
+        <meta name="og:title" content="Murari Sabavath" />
+        <meta
+          name="og:description"
+          content="Murari Sabavath's portfolio built with NextJs and styled components"
+        />
+        <meta name="og:url" content="https://murari-sabavath.me" />
+        <meta
+          name="og:site_name"
+          content="Murari Sabavath Personal Portfolio"
+        />
+        <meta name="og:locale" content="en_IN" />
+        <meta name="og:type" content="website" />
+        <meta
+          name="google-site-verification"
+          content="xZKbCvEivMixmFsp-wuQsZLgb4amaJxrx8njeif2nU0"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+          rel="stylesheet"
+        />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -74,23 +126,6 @@ export default function Document() {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta
-          name="description"
-          content="This is Murari Sabavath's portfolio"
-        />
-        <meta
-          name="google-site-verification"
-          content="xZKbCvEivMixmFsp-wuQsZLgb4amaJxrx8njeif2nU0"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <body>
         <Main />
