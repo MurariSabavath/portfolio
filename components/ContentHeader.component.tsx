@@ -2,8 +2,8 @@ import { Header, Underline } from "../styles/shared";
 
 const ContentHeader = ({ children }: { children: React.ReactNode }) => (
   <Header>
-    <h1>{children}</h1>
-    <Underline width={"100%"} />
+    <h3>{children}</h3>
+    <Underline width={"90%"} />
     <Underline width={"40%"} />
     <div />
   </Header>
