@@ -28,6 +28,11 @@ const Home = ({ theme, setTheme }: IHomeProps) => {
         <Contact />
         <Footer />
       </MainWrapper>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9362350772892795"
+        crossOrigin="anonymous"
+      />
     </div>
   );
 };
