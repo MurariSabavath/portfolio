@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import MainContent from "../components/main-content";
 import Projects from "../components/projects";
+import TechStack from "../components/tech-stack";
 import { MainWrapper } from "../styles/shared";
 
 export interface IHomeProps {
@@ -24,15 +25,11 @@ const Home = ({ theme, setTheme }: IHomeProps) => {
       </MainWrapper>
       <About />
       <MainWrapper>
+        <TechStack />
         <Projects />
         <Contact />
         <Footer />
       </MainWrapper>
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9362350772892795"
-        crossOrigin="anonymous"
-      />
     </div>
   );
 };
