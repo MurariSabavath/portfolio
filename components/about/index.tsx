@@ -17,7 +17,12 @@ const About = () => (
           <ContentHeader>About</ContentHeader>
           <FlexBox>
             <ImgContainer>
-              <Image src="/profile.jpg" width={700} height={700} alt="Murari" />
+              <Image
+                src="/static/profile.jpg"
+                width={700}
+                height={700}
+                alt="Murari"
+              />
             </ImgContainer>
 
             <div>

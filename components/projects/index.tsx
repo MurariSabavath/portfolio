@@ -36,7 +36,7 @@ const Projects = () => {
             </ProjectDetails>
             <ImageContainer>
               <Image
-                src={imgLink}
+                src={`/static/${imgLink}`}
                 layout="fill"
                 objectFit="cover"
                 alt="Project"
