@@ -22,6 +22,7 @@ const MyApp = ({ Component, pageProps }: IProps) => {
       setTheme("dark");
     }
   }, []);
+
   return (
     <>
       <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>

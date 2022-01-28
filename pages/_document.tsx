@@ -4,48 +4,30 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="title" content="Murari Sabavath Portfolio" />
+        <title>Murari Sabavath</title>
+        <meta name="title" content="Murari Sabavath" />
         <meta
           name="description"
-          content="Murari Sabavath's portfolio built with NextJs and Styled components"
+          content="Aspiring full stack web developer based in India"
         />
-        <meta name="author" content="Murari Sabavath" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://murari-sabavath.me/" />
+        <meta property="og:title" content="Murari Sabavath" />
         <meta
-          name="keywords"
-          content="murari, murari's portfolio, murari sabavath protfolio, murari sabavat's portfolio"
+          property="og:description"
+          content="Aspiring full stack web developer based in India"
         />
-        <meta name="robots" content="index, follow" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta itemProp="name" content="Murari Sabavatj" />
+        <meta property="og:image" content="" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://murari-sabavath.me/" />
+        <meta property="twitter:title" content="Murari Sabavath" />
         <meta
-          itemProp="description"
-          content="Murari Sabavath's portfolio built with NextJs and Styled components"
+          property="twitter:description"
+          content="Aspiring full stack web developer based in India"
         />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Murari Sabavath" />
-        <meta
-          name="twitter:description"
-          content="Murari Sabavath's portfolio built with NextJs and Styled component"
-        />
-        <meta name="twitter:site" content="MurariSabavath_" />
-        <meta name="twitter:creator" content="MurariSabavath_" />
-        <meta name="og:title" content="Murari Sabavath" />
-        <meta
-          name="og:description"
-          content="Murari Sabavath's portfolio built with NextJs and styled components"
-        />
-        <meta name="og:url" content="https://murari-sabavath.me" />
-        <meta
-          name="og:site_name"
-          content="Murari Sabavath Personal Portfolio"
-        />
-        <meta name="og:locale" content="en_IN" />
-        <meta name="og:type" content="website" />
+        <meta property="twitter:image" content="" />
         <meta
           name="google-site-verification"
           content="xZKbCvEivMixmFsp-wuQsZLgb4amaJxrx8njeif2nU0"
