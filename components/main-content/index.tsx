@@ -12,16 +12,14 @@ const MainContent = () => (
 
         <CodeBlock>
           <pre>
-            1 class <b>Murari</b> &#123;
+            1 class <b>Murari</b>:
           </pre>
+          <pre>2 &#09; def __init__(self): </pre>
           <pre>
-            2 &#09;&#09; <b>Murari()</b> &#123;
+            3 &#09; &#09;&#09; &#09;self.name = &quot;Murari Sabavath&quot;;
           </pre>
-          <pre>
-            3 &#09;&#09;&#09;&#09; this.name = &quot;Murari Sabavath&quot;;
-          </pre>
-          <pre>4 &#09;&#09; &#125; </pre>
-          <pre>5 &#125; </pre>
+          <pre>4 &#09; def say_hello(): </pre>
+          <pre>4 &#09; &#09; &#09; print("Hello world!")</pre>
         </CodeBlock>
       </FlexBox>
     </div>
