@@ -40,6 +40,7 @@ const Projects = () => {
                 layout="fill"
                 objectFit="cover"
                 alt="Project"
+                priority
               />
             </ImageContainer>
           </ImageCard>
