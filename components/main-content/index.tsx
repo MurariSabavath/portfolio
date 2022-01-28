@@ -19,7 +19,7 @@ const MainContent = () => (
             3 &#09; &#09;&#09; &#09;self.name = &quot;Murari Sabavath&quot;;
           </pre>
           <pre>4 &#09; def say_hello(): </pre>
-          <pre>4 &#09; &#09; &#09; print("Hello world!")</pre>
+          <pre>4 &#09; &#09; &#09; print(&quot;Hello world!&quot;)</pre>
         </CodeBlock>
       </FlexBox>
     </div>
