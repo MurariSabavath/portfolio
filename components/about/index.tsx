@@ -14,7 +14,7 @@ const About = () => (
     <SectionWrapper>
       <MainWrapper>
         <Section>
-          <ContentHeader>About</ContentHeader>
+          <ContentHeader>about</ContentHeader>
           <FlexBox>
             <ImgContainer>
               <Image

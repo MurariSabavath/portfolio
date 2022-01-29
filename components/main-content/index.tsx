@@ -5,9 +5,9 @@ const MainContent = () => (
     <div style={{ position: "relative" }}>
       <FlexBox>
         <AboutSection>
-          <p>Hello, I&apos;m</p>
+          <p>hello, i&apos;m</p>
           <Typewriter>Murari Sabavath</Typewriter>
-          <p>Passionate Web Developer</p>
+          <p>passionate web developer</p>
         </AboutSection>
 
         <CodeBlock>
