@@ -15,7 +15,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <>
-      <ContentHeader>Some Things That I&apos;ve Built</ContentHeader>
+      <ContentHeader>what I have built</ContentHeader>
       <GridBox>
         {projects.map(({ id, title, imgLink, github, link }) => (
           <ImageCard key={id}>

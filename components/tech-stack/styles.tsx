@@ -15,7 +15,7 @@ export const ImageCard = styled.div`
 export const ImageMain = styled.div`
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 40px;
   border-radius: 10px;
   cursor: pointer;
   background: ${({ theme }) => theme.codeBlock};

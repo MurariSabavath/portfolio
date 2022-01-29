@@ -61,11 +61,43 @@ export const frameworks = [
   },
   {
     id: 3,
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg",
   },
   {
     id: 4,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+  },
+  {
+    id: 5,
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+  },
+  {
+    id: 6,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+  },
+  {
+    id: 7,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg",
+  },
+  {
+    id: 8,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+  },
+  {
+    id: 9,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
+  },
+  {
+    id: 10,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    id: 11,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
+  },
+  {
+    id: 12,
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
   },
 ];
 
