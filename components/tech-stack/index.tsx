@@ -7,7 +7,7 @@ const TechStack = () => {
   return (
     <>
       <ContentHeader>what I use everyday</ContentHeader>
-      <h3>Languages</h3>
+      <h3>languages</h3>
       <ImageCard>
         {languages.map(({ id, link }) => {
           return (
