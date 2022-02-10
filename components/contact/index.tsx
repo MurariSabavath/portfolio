@@ -1,6 +1,6 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FiInstagram } from "react-icons/fi";
-import { BsTwitter, BsLinkedin } from "react-icons/bs";
+import { BsTwitter, BsLinkedin, BsStackOverflow } from "react-icons/bs";
 import { ContactContent, ContactLink } from "./styles";
 
 const Contact = () => {
@@ -20,16 +20,22 @@ const Contact = () => {
           <FiInstagram />
         </ContactLink>
         <ContactLink
+          href="https://www.linkedin.com/in/murarisabavath/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </ContactLink>
+        <ContactLink
           href="https://www.twitter.com/MurariSabavath_"
           target="_blank"
         >
           <BsTwitter />
         </ContactLink>
         <ContactLink
-          href="https://www.linkedin.com/in/murarisabavath/"
+          href="https://stackoverflow.com/users/12944024/murari-sabavath"
           target="_blank"
         >
-          <BsLinkedin />
+          <BsStackOverflow />
         </ContactLink>
       </ContactContent>
     </>
