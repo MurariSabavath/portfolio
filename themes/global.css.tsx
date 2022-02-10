@@ -27,10 +27,10 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  primary: "#2A2438",
+  primary: "#202020",
   text: "#f1f1f1",
   toggler: "#f1f1f1",
   accent: "#E21254",
   secondary: "#352f44",
-  codeBlock: "#352f44",
+  codeBlock: "#313131",
 };
