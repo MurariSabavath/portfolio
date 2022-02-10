@@ -27,7 +27,6 @@ const Home = ({ theme, setTheme }: IHomeProps) => {
       <MainWrapper>
         <TechStack />
         <Projects />
-        <Contact />
         <Footer />
       </MainWrapper>
     </div>

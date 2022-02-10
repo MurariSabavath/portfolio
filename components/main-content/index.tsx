@@ -1,3 +1,4 @@
+import Contact from "../contact";
 import { AboutSection, CodeBlock, FlexBox, Typewriter } from "./styles";
 
 const MainContent = () => (
@@ -8,6 +9,7 @@ const MainContent = () => (
           <p>hello, i&apos;m</p>
           <Typewriter>Murari Sabavath</Typewriter>
           <p>passionate web developer</p>
+          <Contact />
         </AboutSection>
 
         <CodeBlock>
