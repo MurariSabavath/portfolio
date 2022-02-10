@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>Murari Sabavath</title>
         <meta name="title" content="Murari Sabavath" />
         <meta
           name="description"
