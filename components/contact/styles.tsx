@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const ContactContent = styled.div`
-  text-align: center;
+  padding-top: 30px;
 `;
 
 export const ContactLink = styled.a`
   text-decoration: none;
   font-size: 1.75rem;
-  margin-inline: 8px;
+  margin-right: 15px;
   color: ${({ theme }) => theme.text};
   transition: 0.2s linear;
 
