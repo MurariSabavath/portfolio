@@ -2,7 +2,7 @@
 
 A minimalist portfolio website to showcase my skills and projects.
 
-[https://murari-sabavath.me](https://murari-sabavath.me)
+Please visit [https://murari-sabavath.me](https://murari-sabavath.me)
 
 ### Built with
 
