@@ -44,8 +44,8 @@ export const ImageCard = styled.div`
 
 export const ProjectDetails = styled.div`
   position: absolute;
-  background: ${({ theme }) => theme.secondary};
-  color: white;
+  background: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.text};
   border-radius: 8px;
   bottom: 0;
   width: 100%;
@@ -58,7 +58,7 @@ export const ProjectDetails = styled.div`
 export const IconLinks = styled.a`
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: ${({ theme }) => theme.text};
   padding-inline: 5px;
   font-size: 1.3rem;
 

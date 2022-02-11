@@ -1,4 +1,3 @@
-import { InlineLink } from "../about/styles";
 import { FooterContent } from "./styles";
 
 const Footer = () => (
