@@ -12,15 +12,16 @@ export const HeaderSection = styled.div`
 `;
 
 export const Button = styled.button`
-  width: 50px;
   height: 30px;
+  width: 50px;
   border-radius: 5px;
   align-items: center;
   cursor: pointer;
   outline: 0;
   border: 0;
-  transition: 0.4s linear;
-  background: ${({ theme }) => theme.toggler};
+  font-size: 1.75rem;
+  background: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.toggler};
 `;
 
 export const HeaderLink = styled.a`

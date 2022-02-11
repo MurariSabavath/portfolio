@@ -1,4 +1,6 @@
 import { useContext } from "react";
+import { BiSun } from "react-icons/bi";
+import { BsFillMoonFill } from "react-icons/bs";
 import { ThemeContext } from "styled-components";
 import { Button, FlexBox, HeaderLink, HeaderSection, Section } from "./styles";
 
@@ -30,15 +32,7 @@ const Header = ({ theme, setTheme }: IHeader) => {
         </HeaderLink>
         <FlexBox>
           <Button onClick={toggleTheme} theme={themeContext}>
-            {isDarkTheme ? (
-              <span aria-label="Light mode" role="img">
-                🌞
-              </span>
-            ) : (
-              <span aria-label="Dark mode" role="img">
-                🌜
-              </span>
-            )}
+            {isDarkTheme ? <BiSun /> : <BsFillMoonFill />}
           </Button>
         </FlexBox>
       </HeaderSection>

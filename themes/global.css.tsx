@@ -19,18 +19,18 @@ export const GlobalStyles = createGlobalStyle<{ theme: IThemeType }>`
 
 export const lightTheme = {
   primary: "#f1f1f1",
-  text: "#121620",
-  toggler: "#2A2438",
-  accent: "#E21254",
   secondary: "#352f44",
+  text: "#121620",
+  toggler: "#202020",
+  accent: "#E21254",
   codeBlock: "#eeeeee",
 };
 
 export const darkTheme = {
   primary: "#202020",
-  text: "#f1f1f1",
-  toggler: "#f1f1f1",
-  accent: "#E21254",
   secondary: "#352f44",
+  text: "#f1f1f1",
+  toggler: "#fcba03",
+  accent: "#E21254",
   codeBlock: "#313131",
 };
