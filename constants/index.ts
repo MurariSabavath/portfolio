@@ -13,6 +13,13 @@ export const projects = [
     github: "https://github.com/MurariSabavath/flask-movie-app",
     link: "https://movie-app-flask.herokuapp.com/",
   },
+  {
+    id: 2,
+    title: "Spotify Clone",
+    imgLink: "spotify-clone.png",
+    github: "https://github.com/MurariSabavath/spotify-clone",
+    link: "https://spotify-clone-web.netlify.app/",
+  },
 ];
 
 export const languages = [
