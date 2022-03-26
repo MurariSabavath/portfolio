@@ -31,7 +31,11 @@ const Header = ({ theme, setTheme }: IHeader) => {
           <span>{lname}</span>
         </HeaderLink>
         <FlexBox>
-          <Button onClick={toggleTheme} theme={themeContext}>
+          <Button
+            onClick={toggleTheme}
+            theme={themeContext}
+            aria-label="change theme"
+          >
             {isDarkTheme ? <BiSun /> : <BsFillMoonFill />}
           </Button>
         </FlexBox>

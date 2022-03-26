@@ -12,7 +12,7 @@ const TechStack = () => {
         {languages.map(({ id, link }) => {
           return (
             <ImageMain key={id}>
-              <Image src={link} width={80} height={80} />
+              <Image src={link} width={80} height={80} alt="language" />
             </ImageMain>
           );
         })}
@@ -23,7 +23,7 @@ const TechStack = () => {
         {frameworks.map(({ id, link }) => {
           return (
             <ImageMain key={id}>
-              <Image src={link} width={80} height={80} />
+              <Image src={link} width={80} height={80} alt="language" />
             </ImageMain>
           );
         })}
