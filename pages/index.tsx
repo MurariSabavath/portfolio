@@ -33,4 +33,10 @@ const Home = ({ theme, setTheme }: IHomeProps) => {
   );
 };
 
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}
+
 export default Home;
