@@ -7,6 +7,7 @@ Please visit [https://murari-sabavath.me](https://murari-sabavath.me)
 ### Built with
 
 - [Next JS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 - [Vercel](https://vercel.com/)
 
