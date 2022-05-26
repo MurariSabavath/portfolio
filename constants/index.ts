@@ -68,7 +68,7 @@ export const frameworks = [
   },
   {
     id: 3,
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg",
   },
   {
     id: 4,
