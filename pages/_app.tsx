@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
+import Layout from "../components/layout";
 import { darkTheme, GlobalStyles, lightTheme } from "../themes/global.css";
 
 export interface IProps {
@@ -27,7 +28,9 @@ const MyApp = ({ Component, pageProps }: IProps) => {
     <>
       <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
         <GlobalStyles />
-        <Component {...pageProps} theme={theme} setTheme={setTheme} />
+        <Layout>
+          <Component {...pageProps} theme={theme} setTheme={setTheme} />
+        </Layout>
       </ThemeProvider>
     </>
   );
