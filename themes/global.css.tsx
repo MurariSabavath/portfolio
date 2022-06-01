@@ -13,8 +13,6 @@ export const GlobalStyles = createGlobalStyle<{ theme: IThemeType }>`
     transition: background 0.2s ease-in, color 0.2s ease-in;
     font-family: 'Source Code Pro', monospace;
   }
-  
-}
 `;
 
 export const lightTheme = {
