@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContactContent = styled.div`
   padding-top: 30px;
+  display: flex;
 `;
 
 export const ContactLink = styled.a`
