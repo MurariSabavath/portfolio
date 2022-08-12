@@ -117,9 +117,9 @@ export const Typewriter = styled.h2`
   color: #dedede;
   font-size: 1.9em;
   color: ${({ theme }) => theme.accent};
-  border-right: 1px solid #dedede;
+  /* border-right: 1px solid #dedede; */
   white-space: nowrap;
-  overflow: hidden;
+  /* overflow: hidden;
   animation: typewriter 4s steps(15) 0.5s 1 normal both,
     cursorblink 0.5s infinite;
 
@@ -140,5 +140,5 @@ export const Typewriter = styled.h2`
     to {
       border-right: 1px solid #666;
     }
-  }
+  } */
 `;

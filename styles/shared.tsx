@@ -2,15 +2,13 @@ import styled from "styled-components";
 
 export const Header = styled.div`
   display: inline-block;
-  margin-block: 20px;
-  h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  h1 {
     padding-block: 5px;
     color: ${({ theme }) => theme.text};
     margin: 0;
-  }
-  div:nth-child(1) {
-    height: 10px;
-    background: red;
+    text-transform: capitalize;
   }
 `;
 
