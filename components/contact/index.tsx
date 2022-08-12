@@ -4,16 +4,44 @@ import { BsTwitter, BsLinkedin, BsStackOverflow } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { ContactContent, ContactLink } from "./styles";
 
+const parent = {
+  initial: {
+    x: -200,
+  },
+  animate: {
+    x: 0,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.8,
+      staggerDirection: -1,
+    },
+  },
+};
+
+const childVariant = {
+  initial: {
+    y: -10,
+  },
+  animate: {
+    y: 0,
+  },
+};
+
 const Contact = () => {
   return (
     <>
-      <ContactContent>
+      <ContactContent
+        variants={parent}
+        initial="initial"
+        animate="animate"
+        transition={{ duration: 1 }}
+      >
         <ContactLink
           href="https://www.github.com/MurariSabavath"
           target="_blank"
           aria-label="contact"
         >
-          <motion.div whileHover={{ y: -5, scale: 1.2 }}>
+          <motion.div variants={childVariant} whileHover={{ scale: 1.4 }}>
             <AiFillGithub />
           </motion.div>
         </ContactLink>
@@ -23,7 +51,7 @@ const Contact = () => {
           target="_blank"
           aria-label="contact"
         >
-          <motion.div whileHover={{ y: -5, scale: 1.2 }}>
+          <motion.div variants={childVariant} whileHover={{ scale: 1.4 }}>
             <FiInstagram />
           </motion.div>
         </ContactLink>
@@ -33,7 +61,7 @@ const Contact = () => {
           target="_blank"
           aria-label="contact"
         >
-          <motion.div whileHover={{ y: -5, scale: 1.2 }}>
+          <motion.div variants={childVariant} whileHover={{ scale: 1.4 }}>
             <BsLinkedin />
           </motion.div>
         </ContactLink>
@@ -43,7 +71,7 @@ const Contact = () => {
           target="_blank"
           aria-label="contact"
         >
-          <motion.div whileHover={{ y: -5, scale: 1.2 }}>
+          <motion.div variants={childVariant} whileHover={{ scale: 1.4 }}>
             <BsTwitter />
           </motion.div>
         </ContactLink>
@@ -52,7 +80,7 @@ const Contact = () => {
           target="_blank"
           aria-label="contact"
         >
-          <motion.div whileHover={{ y: -5, scale: 1.4 }}>
+          <motion.div variants={childVariant} whileHover={{ scale: 1.4 }}>
             <BsStackOverflow />
           </motion.div>
         </ContactLink>

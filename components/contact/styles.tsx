@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ContactContent = styled.div`
+export const ContactContent = styled(motion.div)`
   padding-top: 30px;
   display: flex;
 `;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ImageCard = styled.div`
+export const ImageCard = styled(motion.div)`
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -12,7 +13,7 @@ export const ImageCard = styled.div`
   }
 `;
 
-export const ImageMain = styled.div`
+export const ImageMain = styled(motion.div)`
   display: flex;
   justify-content: center;
   padding: 40px;

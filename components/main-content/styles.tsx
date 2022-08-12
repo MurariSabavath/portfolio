@@ -1,11 +1,15 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Img = styled.img`
   max-width: 200px;
   border-radius: 20px;
 `;
 
-export const AboutSection = styled.section`
+export const AboutSection = styled(motion.section)`
+  overflow: hidden;
+  padding-left: 10px;
+  margin-left: -10px;
   > * {
     cursor: auto;
     margin: 0;
@@ -35,7 +39,7 @@ export const AboutSection = styled.section`
   }
 `;
 
-export const FlexBox = styled.div`
+export const FlexBox = styled(motion.div)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,7 +51,7 @@ export const FlexBox = styled.div`
   }
 `;
 
-export const CodeBlock = styled.div`
+export const CodeBlock = styled(motion.div)`
   color: ${({ theme }) => theme.text};
   background: ${({ theme }) => theme.codeBlock};
   padding-inline: 20px;
@@ -56,6 +60,7 @@ export const CodeBlock = styled.div`
   box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 
   @media (min-width: 768px) {
     padding-top: 20px;
@@ -113,32 +118,10 @@ export const Circle = styled.div`
   }
 `;
 
-export const Typewriter = styled.h2`
+export const Typewriter = styled(motion.h2)`
   color: #dedede;
   font-size: 1.9em;
   color: ${({ theme }) => theme.accent};
-  /* border-right: 1px solid #dedede; */
   white-space: nowrap;
-  /* overflow: hidden;
-  animation: typewriter 4s steps(15) 0.5s 1 normal both,
-    cursorblink 0.5s infinite;
-
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 9em;
-    }
-  }
-
-  @keyframes cursorblink {
-    from {
-      border-right: 1px solid #dedede;
-    }
-
-    to {
-      border-right: 1px solid #666;
-    }
-  } */
+  text-transform: uppercase;
 `;
