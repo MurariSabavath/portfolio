@@ -5,14 +5,14 @@ export const SectionWrapper = styled.div`
   padding-block: 50px;
   margin-block: 100px;
   width: 100%;
-  transform: skewY(-4deg);
+  transform: skewY(-3deg);
   box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.4);
 `;
 
 export const Section = styled.div`
-  transform: skewY(4deg);
+  transform: skewY(3deg);
 `;
 
 export const FlexBox = styled.div`

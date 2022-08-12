@@ -16,14 +16,14 @@ const About = () => (
         <Section>
           <ContentHeader>about</ContentHeader>
           <FlexBox>
-            <ImgContainer>
+            {/* <ImgContainer>
               <Image
                 src="/static/profile.jpg"
                 width={700}
                 height={700}
                 alt="Murari"
               />
-            </ImgContainer>
+            </ImgContainer> */}
 
             <div>
               <p>
@@ -32,24 +32,10 @@ const About = () => (
                 <InlineLink href="https://techatcore.com/" target="_blank">
                   techatcore
                 </InlineLink>
-                as software intern.
+                as Software Engineer.
               </p>
 
-              <p>
-                I have been working on web technologies like React js, Node js,
-                Django for past couple of years. I&apos;m currently learning web
-                technologies like
-                <InlineLink href="https://nextjs.org/" target="_blank">
-                  Next js
-                </InlineLink>
-                and blockchain technologies like
-                <InlineLink
-                  href="https://docs.soliditylang.org/en/v0.8.11/"
-                  target="_blank"
-                >
-                  Solidity.
-                </InlineLink>
-              </p>
+              <p>I have been working on web technologies like React js,</p>
             </div>
           </FlexBox>
         </Section>

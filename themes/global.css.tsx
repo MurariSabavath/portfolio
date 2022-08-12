@@ -2,7 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export interface IThemeType {
   primary: string;
+  secondary: string;
   text: string;
+  toggler: string;
+  accent: string;
+  codeBlock: string;
 }
 
 export const GlobalStyles = createGlobalStyle<{ theme: IThemeType }>`
@@ -11,7 +15,7 @@ export const GlobalStyles = createGlobalStyle<{ theme: IThemeType }>`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.text};
     transition: background 0.2s ease-in, color 0.2s ease-in;
-    font-family: 'Source Code Pro', monospace;
+    font-family:'Montserrat', sans-serif;
   }
 `;
 
