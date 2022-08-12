@@ -22,7 +22,8 @@ export const ImageMain = styled(motion.div)`
   background: ${({ theme }) => theme.codeBlock};
   box-shadow: 4px 3px 10px -6px rgba(0, 0, 0, 0.51);
 
-  &:hover {
+  /* &:hover {
     opacity: 0.6;
-  }
+    scale: 1.2;
+  } */
 `;
