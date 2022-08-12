@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 export const ContactContent = styled(motion.div)`
   padding-top: 30px;
   display: flex;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const ContactLink = styled.a`
