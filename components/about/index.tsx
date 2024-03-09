@@ -27,15 +27,16 @@ const About = () => (
 
             <div>
               <p>
-                I&apos;m Murari Sabavath, a self-taught passionate web
-                developer. Currently working at
-                <InlineLink href="https://techatcore.com/" target="_blank">
-                  techatcore
-                </InlineLink>
-                as Software Engineer.
+                I&apos;m Murari Sabavath, a dynamic software engineer with a blend of
+                full-time and part-time experience totaling three years.
+                Currently immersed in Java Spring Boot for backend and Angular
+                for frontend, I also wield expertise in React.js and have delved
+                into mobile app development with React Native. My journey
+                showcases adaptability, problem-solving prowess, and a
+                relentless drive for innovation, shaping me into a versatile
+                contributor ready to tackle the challenges of tomorrow&apos;s tech
+                landscape.
               </p>
-
-              <p>I have been working on web technologies like React js,</p>
             </div>
           </FlexBox>
         </Section>
